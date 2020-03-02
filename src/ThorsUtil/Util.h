@@ -12,6 +12,7 @@ namespace ThorsAnvil
 
 using Size = std::pair<int, int>;
 using Pos  = std::pair<int, int>;
+using Delta= std::pair<float, float>;
 using Distribution = std::uniform_int_distribution<int>;
 
 inline Distribution getDist(int max)
